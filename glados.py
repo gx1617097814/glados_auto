@@ -26,7 +26,7 @@ if __name__ == '__main__':
         state =  requests.get(url2,headers={'cookie': cookie ,'referer': referer,'origin':origin,'user-agent':useragent})
     #--------------------------------------------------------------------------------------------------------#  
         #打印获取的 state json
-        json_data = json.dumps(data)
+        json_data = json.dumps(state)
         print('my info.......')
         print(json_data)
         
